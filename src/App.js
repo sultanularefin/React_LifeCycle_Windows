@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 // import Sidebar from "react-sidebar";
 import './App.css';
+import Home2 from './Home2.js';
+
 
 
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
@@ -49,12 +51,16 @@ const AppRouter = () => (
                     <li>
                         <Link to="/users/">Users</Link>
                     </li>
+                    <li>
+                        <Link to="/Home2/">Home2</Link>
+                    </li>
                 </ul>
             </nav>
 
             <Route path="/" exact component={Index} />
             <Route path="/about/" component={About} />
             <Route path="/users/" component={Users} />
+            <Route path="/Home2/" component={Home2} />
         </div>
     </Router>
 );
