@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2b34a2a-5801-45b1-a406-cafbcec0cdfa" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LifeCycleCounter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/LifeCycleCounter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LifeCycleEntry.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/LifeCycleEntry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -54,10 +52,12 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="js" value="4" />
+          <entry key="json" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="JSON" value="1" />
           <entry key="JavaScript" value="4" />
         </counts>
       </usages-collector>
@@ -111,11 +111,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LifeCycleCounter.js">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="12" selection-start-column="12" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -149,13 +158,13 @@
         <option value="$PROJECT_DIR$/src/users/index.js" />
         <option value="$PROJECT_DIR$/.eslintrc" />
         <option value="$PROJECT_DIR$/.eslintrc.json" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/Home2.js" />
         <option value="$PROJECT_DIR$/src/Renderprops.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/LifeCycleEntry.js" />
         <option value="$PROJECT_DIR$/src/LifeCycleCounter.js" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -182,8 +191,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="393" />
-    <option name="y" value="72" />
+    <option name="x" value="121" />
+    <option name="y" value="63" />
     <option name="width" value="1299" />
     <option name="height" value="508" />
   </component>
@@ -259,18 +268,18 @@
       <workItem from="1543206634931" duration="7491000" />
       <workItem from="1543224331189" duration="1432000" />
       <workItem from="1545018873426" duration="271000" />
-      <workItem from="1545089681132" duration="1449000" />
+      <workItem from="1545089681132" duration="1699000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20181000" />
+    <option name="totallyTimeSpent" value="20431000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="393" y="72" width="1299" height="508" extended-state="0" />
+    <frame x="121" y="63" width="1299" height="508" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.06899286" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29103887" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -282,7 +291,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.328" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.328" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -299,13 +308,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.eslintrc" />
     <entry file="file://$PROJECT_DIR$/src/users/index.js" />
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.eslintrc.json" />
     <entry file="file://$PROJECT_DIR$/src/UnComponents.js" />
     <entry file="file://$PROJECT_DIR$/src/about/index.js" />
@@ -348,6 +350,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
         </state>
       </provider>
     </entry>
