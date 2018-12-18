@@ -29,6 +29,12 @@ export  default class Counter extends React.Component {
          console.log('-------------------')
     }
 
+    shouldComponentUpdate(nextProps,nextState){
+
+        //generally returns true; default.
+        return true;
+    }
+
     render(){
         console.log('Render of Counter');
         // console.log('-------------------');
