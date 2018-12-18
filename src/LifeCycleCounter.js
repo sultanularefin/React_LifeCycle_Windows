@@ -5,25 +5,33 @@ export  default class Counter extends React.Component {
 
 
     constructor(props){
-        console.log('Constructor');
+        console.log('Constructor of Counter');
+        // console.log('-------------------');
         super (props);
 
         this.state={
             counter:0,
         }
 
-        this.increment =()=>this.setState({counter:this.state.counter})
+        // this.increment =()=>this.setState({counter:this.state.counter})
         this.increment =()=>this.setState({counter:this.state.counter + 1})
-        this.increment =()=>this.setState({counter:this.state.counter - 1})
+        this.decrement =()=>this.setState({counter:this.state.counter - 1})
     }
 
+    componentDidUpdate(prevProps,prevState,snapshot){
+        console.log('Component Did Update of Counter')
+         // console.log('-------------------')
+    }
+
+
     componentDidMount(){
-        console.log('Component Did Mount')
-        console.log('-------------------')
+        console.log('Component Did Mount of Counter')
+         console.log('-------------------')
     }
 
     render(){
-        console.log('Render')
+        console.log('Render of Counter');
+        // console.log('-------------------');
 
         return (<div>
             <button onClick={this.increment}> Increment </button>
@@ -37,8 +45,10 @@ export  default class Counter extends React.Component {
     }
 
 
-    ComponentDidUpdate(prevProps,prevState,snapshot){
-        console.log('Component Did Mount')
+
+
+    componentWillUnmount(prevProps,prevState,snapshot){
+        console.log('Component will UnMount of Counter')
         console.log('-------------------')
     }
 
