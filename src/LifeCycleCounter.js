@@ -20,19 +20,30 @@ export  default class Counter extends React.Component {
 
     componentDidUpdate(prevProps,prevState,snapshot){
         console.log('Component Did Update of Counter')
-         // console.log('-------------------')
+        // console.log('-------------------')
     }
 
 
     componentDidMount(){
         console.log('Component Did Mount of Counter')
-         console.log('-------------------')
+        console.log('-------------------')
     }
 
     shouldComponentUpdate(nextProps,nextState){
 
-        //generally returns true; default.
-        return true;
+        if(nextProps.ignoreProp &&
+            this.props.ignoreProp!== nextProps.ignoreProp){
+            console.log('should Component Update of Counter --- Don\'t render');
+            return false;
+        }
+        else{
+
+            //generally returns true; default.
+            console.log('should Component Update of Counter --- Do render');
+            return true;
+        }
+
+
     }
 
     render(){
@@ -40,13 +51,13 @@ export  default class Counter extends React.Component {
         // console.log('-------------------');
 
         return (<div>
-            <button onClick={this.increment}> Increment </button>
-            <button onClick={this.decrement}> Decrement </button>
-            <div className="counter">
-                Counter: {this.state.counter}
+                <button onClick={this.increment}> Increment </button>
+                <button onClick={this.decrement}> Decrement </button>
+                <div className="counter">
+                    Counter: {this.state.counter}
+                </div>
             </div>
-            </div>
-            )
+        )
 
     }
 
