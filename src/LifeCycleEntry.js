@@ -35,10 +35,15 @@ class LifeCycleEntry extends Component {
         // console.log('-------------------');
         return (
             <div style={divStyle}>
-                <button style={{color:'crimson',fontweight:'bold'}} onClick ={this.mountCounter} disabled ={this.state.mount}>Mount Counter </button>
-                <button  onClick ={this.unmountCounter}
+                <button
+                    style={{color:'crimson',marginRight:'10px'}}
+                    onClick ={this.mountCounter}
+                    disabled ={this.state.mount}>Mount Counter
+                </button>
+                <button style={{color:'crimson',marginRight:'10px'}}  onClick ={this.unmountCounter}
                         disabled ={!this.state.mount}>Unmount Counter </button>
-                <button style={{color:'crimson',fontSize: 42}} onClick={this.ignoreProp}>Ignore Prop </button>
+                <button style={{color:'crimson',marginRight:'10px',fontSize: 42}}
+                        onClick={this.ignoreProp}>Ignore Prop </button>
 
                 {this.state.mount ?
                     <Counter

@@ -51,11 +51,17 @@ export  default class Counter extends React.Component {
         // console.log('-------------------');
 
         return (<div>
-                <button onClick={this.increment}> Increment </button>
-                <button onClick={this.decrement}> Decrement </button>
-                <div className="counter">
+                <button
+                    style={{color:'crimson',marginRight:'10px',fontSize: 20}}
+                    onClick={this.increment}> Increment </button>
+                <button
+                    style={{color:'crimson',marginRight:'10px',fontSize: 20}}
+                    onClick={this.decrement}> Decrement
+                </button>
+
+                <h1 className="counter" style={{margin:'auto'}}>
                     Counter: {this.state.counter}
-                </div>
+                </h1>
             </div>
         )
 
